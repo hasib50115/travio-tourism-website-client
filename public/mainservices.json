@@ -1,0 +1,8 @@
+[
+    {"id": 1, "name": "PHUKET, THILAND", "days": "3 days", "coursefee" : "1200 $","img": "http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-3-1024x640.jpg"},
+    {"id": 2, "name": "HONGKONG, ASIA", "days": "2 days", "coursefee" : "1600 $","img": "http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/package-6-1024x640.jpg"},
+    {"id": 3, "name": "AMESTERDAM, NETHERLANDS", "days": "2 days", "coursefee" : "1500 $.","img": "http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-4-1024x640.jpg"},
+    {"id": 4, "name": "TUSCANY,  ITALY", "days": "3 days", "coursefee" : "2500 $.","img": "http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/package-5-1024x640.jpg"},
+    {"id": 5, "name": "BERLIN, GERMANY", "days": "2 days", "coursefee" : "1400 $.","img": "http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/package-1-1024x640.jpg"},
+    {"id": 6, "name": "BALI, INDONESIA", "days": "2 days", "coursefee" : "1200 $.","img": "https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"}
+]

@@ -1,0 +1,38 @@
+.text{
+    color: black;
+}
+.title{
+    color: #ffffff;
+}
+.admin-section{
+    width: 90%;
+    margin: auto;
+}
+.dashboard{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+}
+.admin-area{
+    background-color: gray;
+    color: #ffffff;
+}
+.buttons ul{
+    display: flex;
+    flex-direction: column;
+}
+.buttons ul li{
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+}
+.buttons li:hover{
+    color: #ffffff;
+    background-color: lightcoral; 
+}

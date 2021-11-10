@@ -1,0 +1,12 @@
+.form-area{
+    width: 400px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .form-area{
+        width: 80%;
+        margin: auto;
+    }
+
+}

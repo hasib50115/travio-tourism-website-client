@@ -1,0 +1,6 @@
+[
+    {"id": 1, "name": "Web Design", "coursefee" : "2500 Bdt.","img": "https://image.freepik.com/free-vector/web-design-landing-page-template_52683-18357.jpg"},
+    {"id": 2, "name": "Web Design and Development", "coursefee" : "2500 Bdt.","img": "https://devboattech.com/wp-content/uploads/2020/07/Web-development-designing-Anvar-Freelancer-1.png"},
+    {"id": 3, "name": "Learn Python", "coursefee" : "2500 Bdt.","img": "https://www.freecodecamp.org/news/content/images/2020/03/gpython.jpg"},
+    {"id": 4, "name": "Learn Cyber Security", "coursefee" : "2500 Bdt.","img": "https://www.simplilearn.com/ice9/webinar_thum_image/Cyber_Security_Tutorial.jpg"}
+]

@@ -1,0 +1,31 @@
+.service-card{
+    text-align: left;
+    line-height: 13px;
+    margin: 20px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 350px;
+    height: auto;
+    font-size: 15px;
+    color: black;
+}
+
+.service-card img{
+    width: 320px;
+    height: 300px;
+    display:block;
+    margin:auto;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    
+}
+
+button{
+    background-color: #45567C;
+    color: #ffffff;
+    margin: 2px;
+    padding: 8px 10px 8px 10px;
+    border: 0px;
+    border-radius: 2px;
+    font-size: 16px;
+}

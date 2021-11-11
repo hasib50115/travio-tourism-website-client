@@ -18,8 +18,8 @@ const OrderTable = (props) => {
     const handleUpdate = (_id) => {
         fetch(`http://localhost:5000/updateStatus/${_id}`, {
             method: "PUT",
-            headers:{"content-type": "application/json"},
-            body:JSON.stringify({statuss}),
+            headers: {"content-type": "application/json"},
+            body: JSON.stringify(statuss)
         })
     }
     
@@ -27,8 +27,7 @@ const OrderTable = (props) => {
         <tr>
             <td>{name}</td>
             <td>{img}</td>
-            <td><input onChange={handleStatus} type="text" defaultValue={status} /></td>
-            
+            <td><input onChange={handleStatus} type="text" defaultValue={status} /></td>            
             
             
             <button onClick={()=>handledelete(_id)} className="btn btn-danger">Delete</button>

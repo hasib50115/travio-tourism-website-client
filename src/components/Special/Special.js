@@ -8,7 +8,7 @@ const Special = (props) => {
             <div className="service-card">
                 <img src={img} alt="" />
                 <div>
-                    <h5 className="title">{name}</h5>                   
+                    <h5 className="destination">{name}</h5>                   
                 </div>
             </div>
         </div>

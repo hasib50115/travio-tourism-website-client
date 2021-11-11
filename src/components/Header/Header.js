@@ -15,8 +15,8 @@ const Header = () => {
                         <Link className="nav-anchor" to='home'>Home</Link>
                         <Link className="nav-anchor" to='services'>Services</Link>
                         <Link className="nav-anchor" to='login'>Login</Link>
-                        <Link className="nav-anchor" to='booking'>Booking</Link>
-                        <Link className="nav-anchor" to='myorder'>My Order</Link>
+                        
+                        
                         <Link className="nav-anchor" to='myorderss'>MyOrders</Link>
                         <Link className="nav-anchor btn btn-danger" to='admin'>Admin</Link>
                         
@@ -38,3 +38,7 @@ export default Header;
 // <Link className="nav-anchor" to='register'>Register</Link>
 
 // <Link className="nav-anchor" to='myorder'>My Orders</Link>
+
+// <Link className="nav-anchor" to='myorder'>My Order</Link>
+
+// <Link className="nav-anchor" to='booking'>Booking</Link>

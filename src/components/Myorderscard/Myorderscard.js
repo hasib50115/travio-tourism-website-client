@@ -8,13 +8,14 @@ const Myorderscard = (props) => {
             method: "DELETE"
         })
         console.log(_id);
+        alert("Are you sure to Delete this?");
     }
     return (
         <div>
             <div className="service-card">
                 <img src={img} alt="" />
                 <div>
-                    <h5 className="title">{name}</h5> 
+                    <h5 className="destination">{name}</h5> 
                     <h6>{days}</h6>                  
                     <h6>{coursefee}</h6>                  
                 </div>

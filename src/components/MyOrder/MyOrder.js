@@ -5,6 +5,9 @@ import './MyOrder.css';
 
 
 const MyOrder = () => {
+    const serviceAdded = () => {
+        alert("Service Added Successfully.");
+    }
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         fetch('http://localhost:5000/addServices',{
@@ -33,7 +36,7 @@ const MyOrder = () => {
             {errors.exampleRequired && <span>This field is required</span>}
             
             <br/> <br/>
-            <input type="submit" />
+            <input className="btn btan-primary" onClick={serviceAdded} type="submit" />
             </form>
         </div>
     );

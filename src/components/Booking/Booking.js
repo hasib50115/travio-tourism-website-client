@@ -9,6 +9,10 @@ const Booking = () => {
     const {serviceId} = useParams();
     const [service, setService] = useState({});
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
+
+    const orderConfirm = ()=>{
+        alert("Order Confirmed.");
+    }
     
     
 
@@ -58,7 +62,7 @@ const Booking = () => {
                     {errors.exampleRequired && <span>This field is required</span>}
                     
                     <br/> <br/>
-                    <input type="submit" />
+                    <input onClick={orderConfirm} type="submit" />
                     </form>
                 </div>
             </div>

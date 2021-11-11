@@ -3,6 +3,7 @@ import React from 'react';
 const Table = (props) => {
     const {name, days, coursefee, img, _id, status} = props.course;
     const handledelete = (_id) => {
+        alert("Are you sure to DELETE this service?");
         fetch(`http://localhost:5000/deleteService/${_id}`, {
             method: "DELETE"
         })

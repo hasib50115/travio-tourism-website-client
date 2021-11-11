@@ -5,12 +5,12 @@
     color: #ffffff;
 }
 .admin-section{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 .dashboard{
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: auto auto;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -36,3 +36,21 @@
     color: #ffffff;
     background-color: lightcoral; 
 }
+
+
+@media only screen and (max-width: 600px) {
+    .dashboard{
+        grid-template-columns: auto;
+
+    }
+    .admin-area{
+        width: 70%;
+        margin: auto;
+    }
+    .text-area{
+        width: 80%;
+        margin: auto;
+    }
+
+}
+

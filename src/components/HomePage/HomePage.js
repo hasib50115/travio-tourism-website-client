@@ -6,14 +6,14 @@ import './HomePage.css';
 const HomePage = () => {
     const [courses, setCourse] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://quiet-refuge-54152.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setCourse(data))
       }, []);
 
     const [services, setServices] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/specials')
+        fetch('https://quiet-refuge-54152.herokuapp.com/specials')
         .then(res => res.json())
         .then(data => setServices(data))
       }, []);
@@ -74,4 +74,3 @@ const HomePage = () => {
 export default HomePage;
 
 
-// http://localhost:5000/services

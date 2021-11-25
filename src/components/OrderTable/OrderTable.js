@@ -9,14 +9,14 @@ const OrderTable = (props) => {
     console.log(statuss);
     
     const handledelete = (_id) => {
-        fetch(`http://localhost:5000/deleteService/${_id}`, {
+        fetch(`https://quiet-refuge-54152.herokuapp.com/deleteService/${_id}`, {
             method: "DELETE"
         })
         console.log(_id);
     }
 
     const handleUpdate = (_id) => {
-        fetch(`http://localhost:5000/updateStatus/${_id}`, {
+        fetch(`https://quiet-refuge-54152.herokuapp.com/updateStatus/${_id}`, {
             method: "PUT",
             headers: {"content-type": "application/json"},
             body: JSON.stringify(statuss)

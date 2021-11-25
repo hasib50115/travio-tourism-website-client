@@ -12,7 +12,7 @@ const MyOrders = () => {
 
 
     useEffect(()=> {
-        fetch(`http://localhost:5000/myOrderss/${user.displayName}`)
+        fetch(`https://quiet-refuge-54152.herokuapp.com/myOrderss/${user.displayName}`)
         .then(res=> res.json())
         .then(data=> setServices(data))
     })

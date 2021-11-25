@@ -5,7 +5,7 @@ import './ManageServices.css';
 const ManageServices = () => {
     const [courses, setCourse] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://quiet-refuge-54152.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setCourse(data))
       }, []);

@@ -21,7 +21,7 @@ const Booking = () => {
         data.status = "pending";
         console.log(data);
 
-        fetch('http://localhost:5000/confirmOrder', {
+        fetch('https://quiet-refuge-54152.herokuapp.com/confirmOrder', {
             method: "POST",
             headers: {"content-type": "application/json"},
             body: JSON.stringify(data)
@@ -30,14 +30,14 @@ const Booking = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/singleProduct/${serviceId}`)
+        fetch(`https://quiet-refuge-54152.herokuapp.com/singleProduct/${serviceId}`)
         .then(res=> res.json())
         .then(data=> setService(data))
     }, [])
     console.log(service);
     return (
         <div className="detail-section">
-            <h2 className="text">Booking Page</h2>
+            <h2 className="text">Booking Page Updated</h2>
             <div className="detail-area">
 
                 <div className="detail">

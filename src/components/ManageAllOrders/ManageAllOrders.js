@@ -4,13 +4,9 @@ import './ManageAllOrders.css';
 
 const ManageAllOrders = () => {
         const [orders, setCourse] = useState([]);
-        const [status, setStatus] = useState("");
-        const handleStatus = (e)=> {
-            setStatus(e.target.value);
-        }
-        console.log(status);
+        
         useEffect(()=>{
-            fetch('http://localhost:5000/manageOrders')
+            fetch('https://quiet-refuge-54152.herokuapp.com/manageOrders')
             .then(res => res.json())
             .then(data => setCourse(data))
           }, []);

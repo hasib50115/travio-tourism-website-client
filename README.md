@@ -1,7 +1,7 @@
 # Website name: travio  
 ## Description: Travio is a travel guide and event booking website. Here you will get affordable and quality travel guide and event tour accross the world.
 
-## Live site link: https://fir-test-auth-8ad4f.web.app/
+## Live site link: https://travio-travel-website.web.app/
 
 ## Website features:
 * Easy to access for any user.

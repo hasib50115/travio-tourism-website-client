@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAoWxnWRnhIyvFOtrj1m1pnIOGtDXRKY9I",
-    authDomain: "fir-test-auth-8ad4f.firebaseapp.com",
-    projectId: "fir-test-auth-8ad4f",
-    storageBucket: "fir-test-auth-8ad4f.appspot.com",
-    messagingSenderId: "205790362477",
-    appId: "1:205790362477:web:d6a485d4238025c1bc3864"
+  apiKey: "AIzaSyCyu8aqGEBGsL6iszN2BYbbxTwAId_0s5c",
+  authDomain: "travio-travel-website.firebaseapp.com",
+  projectId: "travio-travel-website",
+  storageBucket: "travio-travel-website.appspot.com",
+  messagingSenderId: "983303539272",
+  appId: "1:983303539272:web:a9beed1ef077f92c57267d"
   };
 
   export default firebaseConfig;
